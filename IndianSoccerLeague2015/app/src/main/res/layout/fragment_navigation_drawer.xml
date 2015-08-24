@@ -1,11 +1,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="main.isl.sb.com.indiansoccerleague2015.NavigationDrawerFragment"
-    android:background="#EEE">
+    android:background="#F8B"
+    tools:context="main.isl.sb.com.indiansoccerleague2015.NavigationDrawerFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ImageView
+        android:layout_marginTop="@dimen/nav_imageview_margin_top"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_marginBottom="16dp"/>
 
 </FrameLayout>
